@@ -13,7 +13,7 @@ import {
 } from './commands';
 import EditProvider from './PrettierESLintEditProvider';
 
-const VALID_LANG: DocumentSelector = ['javascript', 'javascriptreact'];
+const VALID_LANG: DocumentSelector = ['javascript', 'javascriptreact', 'scss', 'less', 'css'];
 
 export function activate(context: ExtensionContext) {
     const editProvider = new EditProvider()
